@@ -7,17 +7,31 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// helloWorldCmd represents the hello-world command
-var helloWorldCmd = &cobra.Command{
-	Use:   "go-by-example:hello-world",
-	Short: "https://gobyexample.com/hello-world",
+// valuesCmd represents the values command
+var valuesCmd = &cobra.Command{
+	Use:   "go-by-example:values",
+	Short: "https://gobyexample.com/values",
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("hello world")
+
+		// 字符串连接
+		fmt.Println("go" + "lang")
+		fmt.Println("go" + " " + "lang")
+
+		// 加减乘除
+		fmt.Println("1+1 =", 1+1)
+		fmt.Println("1-1 =", 1-1)
+		fmt.Println("7.0*3.0 =", 7.0*3.0)
+		fmt.Println("7.0/3.0 =", 7.0/3.0)
+
+		// 布尔
+		fmt.Println(true && false)
+		fmt.Println(true || false)
+		fmt.Println(!true)
 	},
 }
 
 func init() {
-	cmd.RootCmd.AddCommand(helloWorldCmd)
+	cmd.RootCmd.AddCommand(valuesCmd)
 
 	// Here you will define your flags and configuration settings.
 
