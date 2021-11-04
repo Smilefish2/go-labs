@@ -10,6 +10,8 @@ import (
 
 var cfgFile string
 
+var RootCmd = rootCmd
+
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
 	Use:   "learn-go-with-cli",
