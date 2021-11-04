@@ -13,17 +13,20 @@ var valuesCmd = &cobra.Command{
 	Short: "https://gobyexample.com/values",
 	Run: func(cmd *cobra.Command, args []string) {
 
-		// 字符串连接
+		// Strings, which can be added together with +.
+		// 字符串可以通过 + 连接。
 		fmt.Println("go" + "lang")
 		fmt.Println("go" + " " + "lang")
 
-		// 加减乘除
+		// Integers and floats.
+		// 整数和浮点数
 		fmt.Println("1+1 =", 1+1)
 		fmt.Println("1-1 =", 1-1)
 		fmt.Println("7.0*3.0 =", 7.0*3.0)
 		fmt.Println("7.0/3.0 =", 7.0/3.0)
 
-		// 布尔
+		// Booleans, with boolean operators as you’d expect.
+		// 布尔型，以及常见的布尔操作。
 		fmt.Println(true && false)
 		fmt.Println(true || false)
 		fmt.Println(!true)
@@ -32,14 +35,4 @@ var valuesCmd = &cobra.Command{
 
 func init() {
 	cmd.RootCmd.AddCommand(valuesCmd)
-
-	// Here you will define your flags and configuration settings.
-
-	// Cobra supports Persistent Flags which will work for this command
-	// and all subcommands, e.g.:
-	// helloCmd.PersistentFlags().String("foo", "", "A help for foo")
-
-	// Cobra supports local flags which will only run when this command
-	// is called directly, e.g.:
-	// helloCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }
