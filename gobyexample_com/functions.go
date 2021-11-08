@@ -25,7 +25,7 @@ func plusPlus(a, b, c int) int {
 	return a + b + c
 }
 
-// mapsCmd represents the functions command
+// functionsCmd represents the functions command
 var functionsCmd = &cobra.Command{
 	Use:   "go-by-example:functions",
 	Short: "https://gobyexample.com/functions",

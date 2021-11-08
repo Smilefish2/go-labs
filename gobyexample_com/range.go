@@ -7,7 +7,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// mapsCmd represents the range command
+// rangeCmd represents the range command
 var rangeCmd = &cobra.Command{
 	Use:   "go-by-example:range",
 	Short: "https://gobyexample.com/range",
