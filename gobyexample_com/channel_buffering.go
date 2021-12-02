@@ -10,7 +10,7 @@ import (
 // By default channels are unbuffered, meaning that they will only accept sends (chan <-) if there is a corresponding receive (<- chan) ready to receive the sent value. Buffered channels accept a limited number of values without a corresponding receiver for those values.
 // 默认情况下，通道是 无缓冲 的，这意味着只有对应的接收（<- chan） 通道准备好接收时，才允许进行发送（chan <-）。 有缓冲通道 允许在没有对应接收者的情况下，缓存一定数量的值。
 
-// channelBufferingCmd represents the channel buffering command
+// channelBufferingCmd represents the channel Buffering command
 var channelBufferingCmd = &cobra.Command{
 	Use:   "go-by-example:channel_buffering",
 	Short: "https://gobyexample.com/channel-buffering",
