@@ -5,6 +5,7 @@ https://awesome-go.com/
 # Go By Example
 https://gobyexample.com/
 https://gobyexample-cn.github.io/
+https://learnku.com/docs/gobyexample/2020
 # Go 语言设计与实现
 https://draveness.me/golang/
 
