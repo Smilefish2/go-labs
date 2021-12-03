@@ -24,7 +24,7 @@ func workerPools(id int, jobs <-chan int, results chan<- int) {
 
 // workerPoolsCmd represents the worker pools command
 var workerPoolsCmd = &cobra.Command{
-	Use:   "go-by-example:worker_pools",
+	Use:   "go-by-example:worker-pools",
 	Short: "https://gobyexample.com/worker-pools",
 	Run: func(cmd *cobra.Command, args []string) {
 

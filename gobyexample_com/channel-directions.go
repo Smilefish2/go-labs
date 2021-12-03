@@ -24,7 +24,7 @@ func pong(pings <-chan string, pongs chan<- string) {
 
 // channelDirectionsCmd represents the Channel Directions command
 var channelDirectionsCmd = &cobra.Command{
-	Use:   "go-by-example:channel_directions",
+	Use:   "go-by-example:channel-directions",
 	Short: "https://gobyexample.com/channel-directions",
 	Run: func(cmd *cobra.Command, args []string) {
 

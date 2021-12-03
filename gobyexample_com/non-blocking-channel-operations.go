@@ -11,7 +11,7 @@ import (
 
 // nonBlockingChannelOperationsCmd represents the Non-Blocking Channel Operations command
 var nonBlockingChannelOperationsCmd = &cobra.Command{
-	Use:   "go-by-example:non_blocking_channel_operations",
+	Use:   "go-by-example:non-blocking-channel-operations",
 	Short: "https://gobyexample.com/non-blocking-channel-operations",
 	Run: func(cmd *cobra.Command, args []string) {
 

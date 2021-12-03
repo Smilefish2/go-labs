@@ -12,7 +12,7 @@ import (
 
 // channelBufferingCmd represents the channel Buffering command
 var channelBufferingCmd = &cobra.Command{
-	Use:   "go-by-example:channel_buffering",
+	Use:   "go-by-example:channel-buffering",
 	Short: "https://gobyexample.com/channel-buffering",
 	Run: func(cmd *cobra.Command, args []string) {
 

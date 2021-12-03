@@ -11,7 +11,7 @@ import (
 
 // rangeOverChannelsCmd represents the range over channels command
 var rangeOverChannelsCmd = &cobra.Command{
-	Use:   "go-by-example:range_over_channels",
+	Use:   "go-by-example:range-over-channels",
 	Short: "https://gobyexample.com/range-over-channels",
 	Run: func(cmd *cobra.Command, args []string) {
 

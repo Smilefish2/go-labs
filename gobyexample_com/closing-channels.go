@@ -11,7 +11,7 @@ import (
 
 // closingChannelsCmd represents the closing channels command
 var closingChannelsCmd = &cobra.Command{
-	Use:   "go-by-example:closing_channels",
+	Use:   "go-by-example:closing-channels",
 	Short: "https://gobyexample.com/closing-channels",
 	Run: func(cmd *cobra.Command, args []string) {
 

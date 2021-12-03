@@ -25,7 +25,7 @@ func worker(done chan bool) {
 
 // channelSynchronizationCmd represents the Channel Synchronization command
 var channelSynchronizationCmd = &cobra.Command{
-	Use:   "go-by-example:channel_synchronization",
+	Use:   "go-by-example:channel-synchronization",
 	Short: "https://gobyexample.com/channel-synchronization",
 	Run: func(cmd *cobra.Command, args []string) {
 
