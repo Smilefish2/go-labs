@@ -49,7 +49,6 @@ var lineFiltersCmd = &cobra.Command{
 
 		// Then use the line filter to get uppercase lines.
 		// 然后使用行过滤器来得到大写的行。
-
 	},
 }
 
