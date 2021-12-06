@@ -15,13 +15,12 @@ import (
 
 // numberParsingCmd represents the number-parsing command
 var numberParsingCmd = &cobra.Command{
-	Use:   "go-by-example:for",
-	Short: "https://gobyexample.com/for",
+	Use:   "go-by-example:number-parsing",
+	Short: "https://gobyexample.com/number-parsing",
 	Run: func(cmd *cobra.Command, args []string) {
 
 		// With ParseFloat, this 64 tells how many bits of precision to parse.
 		// 使用 ParseFloat，这里的 64 表示解析的数的位数。
-
 		f, _ := strconv.ParseFloat("1.234", 64)
 		fmt.Println(f)
 
@@ -32,19 +31,16 @@ var numberParsingCmd = &cobra.Command{
 
 		// ParseInt will recognize hex-formatted numbers.
 		// ParseInt 会自动识别出字符串是十六进制数。
-
 		d, _ := strconv.ParseInt("0x1c8", 0, 64)
 		fmt.Println(d)
 
 		// A ParseUint is also available.
 		// ParseUint 也是可用的。
-
 		u, _ := strconv.ParseUint("789", 0, 64)
 		fmt.Println(u)
 
 		// Atoi is a convenience function for basic base-10 int parsing.
 		// Atoi 是一个基础的 10 进制整型数转换函数。
-
 		k, _ := strconv.Atoi("135")
 		fmt.Println(k)
 
