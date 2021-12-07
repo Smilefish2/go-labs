@@ -53,9 +53,11 @@ var httpServersCmd = &cobra.Command{
 
 		// Run the server in the background.
 		// 后台运行服务器。
+		fmt.Println("go run http-servers.go &")
 
 		// Access the /hello route.
 		// 访问 /hello 路由。
+		fmt.Println("curl localhost:8090/hello")
 
 	},
 }
