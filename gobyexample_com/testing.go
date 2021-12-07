@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/spf13/cobra"
 	"learn-go-with-cli/cmd"
+	"os/exec"
 )
 
 // Unit testing is an important part of writing principled Go programs. The testing package provides the tools we need to write unit tests and the go test command runs tests.
@@ -19,13 +20,22 @@ var testingCmd = &cobra.Command{
 	Run: func(cmd *cobra.Command, args []string) {
 
 		fmt.Println("run: cd gobyexample_com")
+		fmt.Println("run: go test -v")
+		fmt.Println("run: go test -bench=.")
+		fmt.Println("run: cd ..")
+
 		// Run all tests in the current project in verbose mode.
 		// 以详细模式运行当前项目中的所有测试。
-		fmt.Println("run: go test -v")
+
 		// Run all benchmarks in the current project. All tests are run prior to benchmarks. The bench flag filters benchmark function names with a regexp.
 		// 运行当前项目中的所有基准测试。所有测试都在基准测试之前运行。bench标志使用regexp筛选基准函数名。
-		fmt.Println("run: go test -bench=.")
 
+		cmdShell := "cd gobyexample_com && go test -v && go test -bench=. && cd .."
+		out, err := exec.Command("bash", "-c", cmdShell).Output()
+		if err != nil {
+			fmt.Printf("Failed to execute command: %s", cmdShell)
+		}
+		fmt.Println(string(out))
 	},
 }
 
