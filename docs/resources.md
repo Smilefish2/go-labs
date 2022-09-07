@@ -16,4 +16,7 @@ https://github.com/inancgumus/learngo
 # Learn Go with tests
 https://studygolang.gitbook.io/
 https://github.com/quii/learn-go-with-tests
+
+# Go社区Wiki
+https://learnku.com/go/wikis
 ```
