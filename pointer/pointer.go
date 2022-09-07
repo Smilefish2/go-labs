@@ -3,12 +3,13 @@ package pointer
 import (
 	"fmt"
 	"github.com/spf13/cobra"
+	"learn-go-with-cli/cmd"
 )
 
 // PointerCmd 从指针获取指针指向的
 // 当使用&操作符对普通变量进行取地址操作并得到变量的指针后，可以对指针使用*操作符，也就是指针取值，代码如下。
-var PointerCmd = &cobra.Command{
-	Use:   "pointer:main1",
+var pointerCmd = &cobra.Command{
+	Use:   "pointer:main",
 	Short: "http://c.biancheng.net/view/21.html",
 	Run: func(cmd *cobra.Command, args []string) {
 
@@ -27,4 +28,8 @@ var PointerCmd = &cobra.Command{
 		// 指针取值后就是指向变量的值
 		fmt.Printf("value: %s\n", value)
 	},
+}
+
+func init() {
+	cmd.RootCmd.AddCommand(pointerCmd)
 }

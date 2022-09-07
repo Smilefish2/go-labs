@@ -3,7 +3,6 @@ package cmd
 import (
 	"fmt"
 	"github.com/spf13/cobra"
-	"learn-go-with-cli/pointer"
 	"os"
 
 	"github.com/spf13/viper"
@@ -35,8 +34,6 @@ func Execute() {
 }
 
 func init() {
-	// 包内init无效，移动到此处添加
-	rootCmd.AddCommand(pointer.PointerCmd)
 
 	cobra.OnInitialize(initConfig)
 
