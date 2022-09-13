@@ -17,6 +17,9 @@ https://gfw.go101.org/article/101.html
 # Go语言学习笔记
 https://www.yuque.com/qyuhen/go/
 
+# 跟煎鱼学 Go
+https://eddycjy.gitbook.io/golang/
+
 # learnGo Examples
 https://github.com/inancgumus/learngo
 
