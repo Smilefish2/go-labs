@@ -30,6 +30,9 @@ https://draveness.me/golang/
 
 # 跟煎鱼学 Go
 https://eddycjy.gitbook.io/golang/
+
+# Go 程序员面试笔试宝典
+https://golang.design/go-questions/
 ```
 ### 其他
 ```

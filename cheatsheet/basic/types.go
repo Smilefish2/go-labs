@@ -197,7 +197,6 @@ var pointerCmd = &cobra.Command{
 
 		table := tablewriter.NewWriter(os.Stdout)
 		table.SetHeader([]string{"Type", "Size", "Default", "Range", "Note"})
-		//table.SetColumnAlignment([]int{3, 3, 3})
 
 		for _, v := range data {
 			table.Append(v)
@@ -205,8 +204,6 @@ var pointerCmd = &cobra.Command{
 		table.Render() // Send output
 
 		color.Blue("系统架构:%s,%s,%s", runtime.Compiler, runtime.GOARCH, runtime.GOOS)
-
-		fmt.Println(len(data))
 
 	},
 }
