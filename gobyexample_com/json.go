@@ -3,7 +3,7 @@ package gobyexample_com
 import (
 	"encoding/json"
 	"fmt"
-	"learn-go-with-cli/cmd"
+	"go-labs/cmd"
 	"os"
 
 	"github.com/spf13/cobra"

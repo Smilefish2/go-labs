@@ -1,13 +1,13 @@
 package main
 
 import (
-	_ "learn-go-with-cli/cheatsheet/basic"
-	"learn-go-with-cli/cmd"
-	//_ "learn-go-with-cli/go_notes/volume1/summary"
-	//_ "learn-go-with-cli/go_notes/volume1/type"
-	_ "learn-go-with-cli/gobyexample_com"
-	_ "learn-go-with-cli/pointer"
-	_ "learn-go-with-cli/question"
+	_ "go-labs/cheatsheet/basic"
+	"go-labs/cmd"
+	//_ "go-labs/go_notes/volume1/summary"
+	//_ "go-labs/go_notes/volume1/type"
+	_ "go-labs/gobyexample_com"
+	_ "go-labs/pointer"
+	_ "go-labs/question"
 )
 
 func main() {

@@ -4,7 +4,7 @@ import (
 	"crypto/sha1"
 	"fmt"
 	"github.com/spf13/cobra"
-	"learn-go-with-cli/cmd"
+	"go-labs/cmd"
 )
 
 // SHA1 hashes are frequently used to compute short identities for binary or text blobs. For example, the git revision control system uses SHA1s extensively to identify versioned files and directories. Here’s how to compute SHA1 hashes in Go.

@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"github.com/spf13/cobra"
-	"learn-go-with-cli/cmd"
+	"go-labs/cmd"
 	"os"
 	"strings"
 )

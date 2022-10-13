@@ -1,6 +1,6 @@
 # init project
 ```
-cobra init --pkg-name=learn-go-with-cli
+cobra init --pkg-name=go-labs
 ```
 # add sub command
 ```

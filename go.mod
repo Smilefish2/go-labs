@@ -1,4 +1,4 @@
-module learn-go-with-cli
+module go-labs
 
 go 1.17
 

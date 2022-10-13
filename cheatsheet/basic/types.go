@@ -5,7 +5,7 @@ import (
 	"github.com/fatih/color"
 	"github.com/olekukonko/tablewriter"
 	"github.com/spf13/cobra"
-	"learn-go-with-cli/cmd"
+	"go-labs/cmd"
 	"math"
 	"os"
 	"runtime"

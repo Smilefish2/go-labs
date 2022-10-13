@@ -2,7 +2,7 @@ package question
 
 import (
 	"github.com/spf13/cobra"
-	"learn-go-with-cli/cmd"
+	"go-labs/cmd"
 	"unicode"
 )
 

@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"fmt"
 	"github.com/spf13/cobra"
-	"learn-go-with-cli/cmd"
+	"go-labs/cmd"
 )
 
 // Go offers built-in support for XML and XML-like formats with the encoding.xml package.

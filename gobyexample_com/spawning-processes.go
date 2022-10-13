@@ -2,8 +2,8 @@ package gobyexample_com
 
 import (
 	"fmt"
+	"go-labs/cmd"
 	"io"
-	"learn-go-with-cli/cmd"
 	"os/exec"
 
 	"github.com/spf13/cobra"

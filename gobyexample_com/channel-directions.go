@@ -3,7 +3,7 @@ package gobyexample_com
 import (
 	"fmt"
 	"github.com/spf13/cobra"
-	"learn-go-with-cli/cmd"
+	"go-labs/cmd"
 )
 
 // When using channels as function parameters, you can specify if a channel is meant to only send or receive values. This specificity increases the type-safety of the program.

@@ -4,7 +4,7 @@ import (
 	b64 "encoding/base64"
 	"fmt"
 	"github.com/spf13/cobra"
-	"learn-go-with-cli/cmd"
+	"go-labs/cmd"
 )
 
 // Go provides built-in support for base64 encoding/decoding.

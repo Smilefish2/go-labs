@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 	"github.com/fatih/color"
-	"learn-go-with-cli/cmd"
+	"go-labs/cmd"
 	"os"
 
 	"github.com/spf13/cobra"

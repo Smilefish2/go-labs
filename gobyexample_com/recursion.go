@@ -2,7 +2,7 @@ package gobyexample_com
 
 import (
 	"fmt"
-	"learn-go-with-cli/cmd"
+	"go-labs/cmd"
 
 	"github.com/spf13/cobra"
 )

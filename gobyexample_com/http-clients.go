@@ -3,7 +3,7 @@ package gobyexample_com
 import (
 	"bufio"
 	"fmt"
-	"learn-go-with-cli/cmd"
+	"go-labs/cmd"
 	"net/http"
 
 	"github.com/spf13/cobra"

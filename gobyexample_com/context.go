@@ -3,7 +3,7 @@ package gobyexample_com
 import (
 	"fmt"
 	"github.com/fatih/color"
-	"learn-go-with-cli/cmd"
+	"go-labs/cmd"
 	"net/http"
 	"time"
 

@@ -3,7 +3,7 @@ package pointer
 import (
 	"fmt"
 	"github.com/spf13/cobra"
-	"learn-go-with-cli/cmd"
+	"go-labs/cmd"
 )
 
 // PointerCmd 从指针获取指针指向的
